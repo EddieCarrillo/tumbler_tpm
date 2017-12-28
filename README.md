@@ -22,7 +22,7 @@ The following **optional** user stories are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-https://i.imgur.com/vBuJ77X.gif' title='Tumblr Walkthrough' width='200' height '500' alt='Video Walkthrough
+https://i.imgur.com/vBuJ77X.gif' title='Tumblr Walkthrough' width='200' height='500' alt='Video Walkthrough
 <img src='' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
