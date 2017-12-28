@@ -4,13 +4,13 @@ Tumbler Photo Client
 
 **Tumbler Client** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **1** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can scroll through a feed of images returned from the Tumblr API (5pts)
+- [x] User can scroll through a feed of images returned from the Tumblr API (5pts)
 
 The following **optional** user stories are implemented:
 
@@ -22,8 +22,8 @@ The following **optional** user stories are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://i.imgur.com/vBuJ77X.gif' title='Tumblr Walkthrough' width='200' height '500' alt='Video Walkthrough
+<img src='' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
