@@ -13,6 +13,7 @@ class FeedCellTableViewCell: UITableViewCell {
 
     @IBOutlet weak var photoView: UIImageView!
     
+    @IBOutlet weak var pictureImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

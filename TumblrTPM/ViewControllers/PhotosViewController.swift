@@ -104,21 +104,32 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-    /*
      // MARK: - Navigation
      
      // In a storyboard-based application, you will often want to do a little preparation before navigation
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
+         let detailViewController = segue.destination as! PhotoDetailViewController
+         let cell = sender as! FeedCellTableViewCell
+        guard  let indexPath = tableview.indexPath(for: cell) else {
+            print("index path does not exits")
+            return
+        }
+        
+        let post = self.posts[indexPath.row]
+        if let photos = post["photos"] as? [[String: Any]] {
+            let photo = photos.first as! [String: Any]
+            let originalSize = photo["original_size"] as! [String: Any]
+            let urlString = originalSize["url"] as! String
+            
+            let url = URL(string: urlString)
+            detailViewController.photoURL = url
+        }else {
+            print("Could not load the photo url")
+        }
+        
+        
+    }
+    
     
 }
 
