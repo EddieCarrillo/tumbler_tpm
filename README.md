@@ -12,13 +12,6 @@ The following **required** user stories are complete:
 
 - [x] User can scroll through a feed of images returned from the Tumblr API (5pts)
 
-The following **optional** user stories are implemented:
-
-- [ ] User sees an alert when there's a networking error (+1pt)
-- [ ] While poster is being fetched, user see's a placeholder image (+1pt)
-- [ ] User sees image transition for images coming from network, not when it is loaded from cache (+1pt)
-- [ ] Customize the selection effect of the cell (+1pt)
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
@@ -57,37 +50,18 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
     The following **required** user stories are complete:
     
     - [x] User can tab an image to view a larger image in a detail view (5pts)
-    
-    The following **optional** user stories are implemented:
-    
-    - [ ] Add Avatar and Publish Dates (+2pt)
-    - [ ] Zoomable Photo View (+2pt)
-    - [ ] Infinite Scrolling (+2pt)
-    
-    The following **additional** user stories are implemented:
-    
-    - [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
-    
-    Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-    
-    1.
-    2.
-    
+   
     ## Video Walkthrough
     
     Here's a walkthrough of implemented user stories:
     
-    <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+    <img src='https://i.imgur.com/M8NQGaM.gif' title='Tumblr Walkthrough'  alt='Tumblr Walkthrough' />
     
     GIF created with [LiceCap](http://www.cockos.com/licecap/).
     
-    ## Notes
-    
-    Describe any challenges encountered while building the app.
-    
     ## License
     
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Eduardo Carrillo]
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
